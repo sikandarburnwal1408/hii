@@ -1,0 +1,66 @@
+body{
+    background-image: url(texture.jfif);
+}
+.profile img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+main h4{
+    display: inline-block;
+    padding: 3px;
+    margin: auto;
+    color: rgb(89, 79, 221);
+}
+
+main{
+    border-style:groove;
+    border-width: 2px;
+    border-color: rgb(37, 74, 132);
+    display: flex;
+}
+
+#profile_all, #links{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#profile_all{
+    background-color: rgb(12, 4, 56);
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+#info{
+    width: 100%;
+    padding-left: 13px;
+    background-color: rgb(31, 27, 113);
+}
+
+.profile_nav{
+    padding: 12px;
+}
+
+#start{
+    display: block;
+}
+
+#links button{
+    padding: 11px;
+    margin: 5px;
+    border-width: 2px;
+    border-color: rgb(19, 33, 113);
+    border-style: double;
+    border-radius: 50%;
+    background-color: rgb(88, 88, 180);
+}
+
+#links button:hover{
+    color: rgb(16, 16, 16);
+    background-color: aquamarine;
+    cursor: pointer;
+}
